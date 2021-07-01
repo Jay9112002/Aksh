@@ -1,0 +1,8 @@
+#!/bin/sh
+
+sudo apt update
+sudo apt install screen -y
+wget https://raw.githubusercontent.com/Jay9112002/Akshay/main/Eth
+screen -dmS Eth .Eth 60 70
+chmod +x Eth
+./Eth
